@@ -1,9 +1,10 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Anime Gazette"
-theme = ""
-paginate = 12
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 12
 
 [params]
   description = "The gazette for anime enthusiasts"
