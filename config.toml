@@ -1,0 +1,20 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Anime Gazette"
+theme = ""
+paginate = 12
+enableRobotsTXT = true
+
+[params]
+  description = "The gazette for anime enthusiasts"
+  author = "Anime Gazette Team"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.8
+
+[markup.goldmark.renderer]
+  unsafe = true
